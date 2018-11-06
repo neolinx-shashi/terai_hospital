@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["VF3Z+"]); }
+
+__d('SUICardWIPBodyUniform.business',['cssVar','SUITypeStyle'],(function a(b,c,d,e,f,g,h){'use strict';var i={style:{paddingTop:24,paddingBottom:24,paddingLeft:12,paddingRight:12},typeStyle:new (c('SUITypeStyle'))({color:"#4b4f56",fontFamily:"Helvetica, Arial, sans-serif",fontSize:'12px'})};f.exports=i;}),null);

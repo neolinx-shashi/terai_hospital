@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Rkygk"]); }
+
+__d('SUICardWIPStatusUniform.business',['cssVar','SUITypeStyle'],(function a(b,c,d,e,f,g,h){'use strict';var i={style:{backgroundColor:"#f6f7f9",borderTop:'1px solid '+"#dddfe2",paddingBottom:12,paddingLeft:12,paddingRight:12,paddingTop:12},typeStyle:new (c('SUITypeStyle'))({color:"#90949c",fontFamily:"Helvetica, Arial, sans-serif",fontSize:'11px'})};f.exports=i;}),null);

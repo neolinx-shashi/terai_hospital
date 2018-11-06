@@ -1,0 +1,72 @@
+
+#maindiv {
+    width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: 'Droid Sans', sans-serif
+}
+
+#formdiv {
+    width: 500px;
+    float: left;
+    text-align: center
+}
+
+#file {
+    color: green;
+    padding: 5px;
+    border: 1px dashed #123456;
+    background-color: #f9ffe5
+}
+
+#noerror {
+    color: green;
+    text-align: left
+}
+
+#error {
+    color: red;
+    text-align: left
+}
+
+#img {
+    width: 17px;
+    border: none;
+    height: 17px;
+    margin-left: -20px;
+    margin-bottom: 90px
+}
+
+.abcd {
+    text-align: center
+}
+
+.abcd img {
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    border: 1px solid #e8debd
+}
+.doctor-form .form-control{
+    margin-left: 8px;
+}
+.doctor-form hr{
+    display: none;
+}
+.doctor-form .input#inputfile{
+    width: 200px !important;
+}
+.doctor-form .image-browse{
+    margin-left: -105px;
+}
+
+#example1_length {
+    display: none;
+}
+
+.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+    display: none;
+}

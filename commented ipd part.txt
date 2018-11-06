@@ -1,0 +1,306 @@
+{{--<div id="tabs-3">--}}
+                            {{--<div class="container">--}}
+                            {{--<form method="post"--}}
+                            {{--action="{{URL::action('BackendController\GuardianController@store')}}">--}}
+                            {{--{{ csrf_field() }}--}}
+                            {{--<br>--}}
+                            {{--Guardian Details--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="guardian_name" class="col-sm-1 form-control-label">Local--}}
+                            {{--Guardian</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="guardian_name"--}}
+                            {{--placeholder="Local Guardian Name" name="guardian_name">--}}
+                            {{--</div>--}}
+                            {{--<label for="inputmname" class="col-sm-1 form-control-label">Relation</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="inputmname"--}}
+                            {{--placeholder="Relation"--}}
+                            {{--name="guardian_relation">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="guardian_phone"--}}
+                            {{--class="col-sm-1 form-control-label">Phone/Mobile</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="guardian_phone"--}}
+                            {{--placeholder="Phone/Mobile" name="guardian_phone">--}}
+                            {{--</div>--}}
+
+                            {{--<label for="inputdob" class="col-sm-1 form-control-label">Address</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="inputlname"--}}
+                            {{--placeholder="Guardian Address" name="guardian_address">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="parent_name" class="col-sm-1 form-control-label">Parent's--}}
+                            {{--Name</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="parent_name"--}}
+                            {{--placeholder="Parent's Name" name="parent_name">--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<div class="checkbox">--}}
+                            {{--<label><input type="checkbox" name="local_guardian"--}}
+                            {{--onchange="copyTextValue(this);">Is Local--}}
+                            {{--Guardian</label>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="parent_phone"--}}
+                            {{--class="col-sm-1 form-control-label">Phone/Mobile</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="parent_phone"--}}
+                            {{--placeholder="Phone/Mobile" name="parent_phone">--}}
+                            {{--</div>--}}
+                            {{--<label for="GuardEmail" class="col-sm-1 form-control-label">Email</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="GuardEmail"--}}
+                            {{--placeholder="Email"--}}
+                            {{--name="parent_email">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="Paddress" class="col-xs-1 form-control-label">Permanent--}}
+                            {{--Address</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="Paddress"--}}
+                            {{--placeholder="Permanent Address" name="parent_address">--}}
+                            {{--</div>--}}
+                            {{--<label for="GuardOccupation"--}}
+                            {{--class="col-sm-1 form-control-label">Occupation</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="GuardOccupation"--}}
+                            {{--placeholder="Occupation" name="parent_occupation">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<hr>--}}
+                            {{--<br>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<div class="col-md-12">--}}
+                            {{--<button type="submit"--}}
+                            {{--class="col-md-1 col-lg-offset-8 btn btn-primary btn-flat">--}}
+                            {{--Save--}}
+                            {{--</button>--}}
+                            {{--<button type="reset" class="col-md-1 btn btn-warning btn-flat"--}}
+                            {{--style="margin-left: 10px;">Reset--}}
+                            {{--</button>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--</form>--}}
+                            {{--</div>--}}
+                            {{--<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>--}}
+                            {{--</div>--}}
+                            {{--<div id="tabs-4">--}}
+                            {{--<div class="container">--}}
+                            {{--<form method="post"--}}
+                            {{--action="{{URL::action('BackendController\ReferrerController@store')}}">--}}
+                            {{--{{ csrf_field() }}--}}
+                            {{--<br>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--Referrer Details--}}
+                            {{--<label for="InstituteName" class="col-sm-1 form-control-label">Institute--}}
+                            {{--Name</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="InstituteName"--}}
+                            {{--placeholder="Institute Name" name="institute_name">--}}
+                            {{--</div>--}}
+                            {{--<label for="RefAddress" class="col-sm-1 form-control-label">Address</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="RefAddress"--}}
+                            {{--placeholder="Institute Address" name="institute_address">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="MedicName" class="col-sm-1 form-control-label">Medic--}}
+                            {{--Name</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="MedicName"--}}
+                            {{--placeholder="Medic Name" name="medic_name">--}}
+                            {{--</div>--}}
+                            {{--<label for="RefDesig"--}}
+                            {{--class="col-sm-1 form-control-label">Designation</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="text" class="form-control" id="RefDesig"--}}
+                            {{--placeholder="Designation" name="medic_designation">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="RefReason" class="col-sm-1 form-control-label">Refer--}}
+                            {{--Reason</label>--}}
+                            {{--<div class="col-sm-9">--}}
+                            {{--<textarea class="form-control" id="RefReason"--}}
+                            {{--name="refer_reason"></textarea>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="dob" class="col-sm-1 form-control-label">Entry Date--}}
+                            {{--</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="date" class="form-control" id="dob" name="entry_date">--}}
+                            {{--</div>--}}
+
+                            {{--<label for="dob" class="col-sm-1 form-control-label">Release Date--}}
+                            {{--</label>--}}
+                            {{--<div class="col-sm-4">--}}
+                            {{--<input type="date" class="form-control" id="dob" name="release_date">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="transLetter" class="form-control-label"--}}
+                            {{--style="float: left; margin-left: 15px;width:150px;">Upload Transfer--}}
+                            {{--Letter</label>--}}
+                            {{--<div class="col-sm-2">--}}
+                            {{--<input id="transLetter" type="file" class="file"--}}
+                            {{--name="transferLetter_name">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<hr>--}}
+                            {{--<h4>Upload Documents:</h4><br>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="LabDoc" class="form-control-label"--}}
+                            {{--style="float: left; margin-left: 15px;width:150px;">Laboratory--}}
+                            {{--Document</label>--}}
+                            {{--<div class="col-sm-2">--}}
+                            {{--<input id="LabDoc" type="file" class="file" name="labDocument_name">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="RadioDetial" class="form-control-label"--}}
+                            {{--style="float: left; margin-left: 15px; width:150px;">Radiology--}}
+                            {{--Details</label>--}}
+                            {{--<div class="col-sm-2">--}}
+                            {{--<input id="RadioDetial" type="file" class="file"--}}
+                            {{--name="radioDetail_name">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="SurgDetial" class="form-control-label"--}}
+                            {{--style="float: left; margin-left: 15px;width:150px;">Surgeries--}}
+                            {{--Details</label>--}}
+                            {{--<div class="col-sm-2">--}}
+                            {{--<input id="SurgDetial" type="file" class="file"--}}
+                            {{--name="surgeryDetail_name">--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="PreDetect" class="col-sm-1 form-control-label">Previous--}}
+                            {{--Detections</label>--}}
+                            {{--<div class="col-sm-9">--}}
+                            {{--<textarea class="form-control" id="PreDetect"--}}
+                            {{--name="previous_detections"></textarea>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="PatHistory" class="col-sm-1 form-control-label">Patient--}}
+                            {{--History</label>--}}
+                            {{--<div class="col-sm-9">--}}
+                            {{--<textarea class="form-control" id="PatHistory"--}}
+                            {{--name="patient_history"></textarea>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="Presc" class="col-sm-1 form-control-label">Prescriptions</label>--}}
+                            {{--<div class="col-sm-9">--}}
+                            {{--<textarea class="form-control" id="Presc"--}}
+                            {{--name="prescriptions"></textarea>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label for="DischargeSum" class="col-sm-1 form-control-label">Discharge--}}
+                            {{--Summary</label>--}}
+                            {{--<div class="col-sm-9">--}}
+                            {{--<textarea class="form-control" id="DischargeSum"--}}
+                            {{--name="discharge_summary"></textarea>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+
+                            {{--<hr>--}}
+                            {{--<br>--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<div class="col-md-12">--}}
+                            {{--<button type="submit"--}}
+                            {{--class="col-md-1 col-lg-offset-8 btn btn-primary btn-flat">--}}
+                            {{--Save--}}
+                            {{--</button>--}}
+                            {{--<button type="reset" class="col-md-1 btn btn-warning btn-flat"--}}
+                            {{--style="margin-left: 10px;">Reset--}}
+                            {{--</button>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--</form>--}}
+                            {{--</div>--}}
+                            {{--<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>--}}
+                            {{--<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>--}}
+                            {{--</div>--}}
+
+                            {{--<div id="tabs-2">--}}
+                            {{--<div class="container">--}}
+                            {{--<form method="post"--}}
+                            {{--action="{{URL::action('BackendController\IPDController@store')}}">--}}
+                            {{--{{ csrf_field() }}--}}
+                            {{--<br>--}}
+                            {{--Referrer Details--}}
+                            {{--<div class="form-group row">--}}
+                            {{--<label style="margin:5px -50px 0 0; " for="InstituteName"--}}
+                            {{--class="col-sm-1 form-control-label">Ward</label>--}}
+                            {{--<div class="col-sm-2">--}}
+                            {{--<select name="ward_id" id="ward" class="form-control">--}}
+                            {{--<option value="">Select Ward</option>--}}
+                            {{--@foreach($wards as $ward)--}}
+                            {{--<option value="{{ $ward->id }}"--}}
+                            {{--@if(old('ward_id')==$ward->id)--}}
+                            {{--<?php echo 'selected' ?>--}}
+                            {{--@endif--}}
+                            {{-->{{ $ward->ward_name}}</option>--}}
+                            {{--@endforeach--}}
+                            {{--</select>--}}
+                            {{--</div>--}}
+                            {{--<label style="margin:5px -50px 0 50px; " for="RefAddress"--}}
+                            {{--class="col-sm-1 form-control-label">Room</label>--}}
+                            {{--<div class="col-sm-2" id="room">--}}
+                            {{--<select name="room_id" id="rooms" class="form-control">--}}
+                            {{--<option value="">Select Room</option>--}}
+                            {{--@foreach($rooms as $room)--}}
+                            {{--<option value="{{ $room->id }}"--}}
+                            {{--@if(old('room_id')==$room->id)--}}
+                            {{--<?php echo 'selected' ?>--}}
+                            {{--@endif--}}
+                            {{-->{{ $room->room_name}}</option>--}}
+                            {{--@endforeach--}}
+                            {{--</select>--}}
+                            {{--</div>--}}
+
+                            {{--<label style="margin:5px -50px 0 50px; " for="RefAddress"--}}
+                            {{--class="col-sm-1 form-control-label">Bed</label>--}}
+                            {{--<div class="col-sm-2" id="bed">--}}
+                            {{--<select name="bed_id" id="beds" class="form-control">--}}
+                            {{--<option value="">Select Bed</option>--}}
+                            {{--@foreach($beds as $bed)--}}
+                            {{--<option value="{{ $bed->id }}"--}}
+                            {{--@if(old('bed_id')==$bed->id)--}}
+                            {{--<?php echo 'selected' ?>--}}
+                            {{--@endif--}}
+                            {{-->{{ $bed->bed_name}}</option>--}}
+                            {{--@endforeach--}}
+                            {{--</select>--}}
+                            {{--</div>--}}
+                            {{--</div>--}}
+                            {{--<div class="row">--}}
+                            {{--<br>--}}
+                            {{--<button type="submit"--}}
+                            {{--class="col-md-1 col-lg-offset-8 btn btn-primary btn-flat">--}}
+                            {{--Save--}}
+                            {{--</button>--}}
+                            {{--<button type="reset" class="col-md-1 btn btn-warning btn-flat"--}}
+                            {{--style="margin-left: 10px;">Reset--}}
+                            {{--</button>--}}
+                            {{--</div>--}}
+                            {{--</form>--}}
+                            {{--</div>--}}
+                            {{--<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>--}}
+                            {{--<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>--}}
+                            {{--</div>--}}
